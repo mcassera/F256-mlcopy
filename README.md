@@ -1,7 +1,7 @@
 # F256-mlcopy
 A utility for SuperBASIC to use the DMA engine if memcopy fails
 
-If you are having issues with the SuperBASIC command `memcopy` locking up, this short machine language routine will do the same function without issues.
+If you are having issues with the SuperBASIC command `MEMCOPY` locking up, this short machine language routine will do the same function without issues.
 
 To use it, either `BLOAD` the `mlcopy$0900.bin` file into memory location $0900 at the start of your program, or add the basic loader program to your own BASIC programs.
 
